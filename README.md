@@ -1,6 +1,6 @@
 # Random Spectator Plugin
 ## Overview
-t 秒に一回、n %の確率でプレイやーがスペクテイターにされるプラグイン
+t 秒に一回、n %の確率でプレイヤーがスペクテイターにされるプラグイン
 
 ## Version
 Paper 1.15.2
