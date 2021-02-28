@@ -1,0 +1,5 @@
+# 切り替わる時間 (sec), long
+time: 30
+
+# スペクテイターになる確率, double, 0 <= ratio <= 100
+ratio: 30

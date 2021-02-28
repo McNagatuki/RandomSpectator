@@ -1,0 +1,17 @@
+name: RandomSpectator
+version: ${project.version}
+main: com.github.mcnagatuki.randomspectator.RandomSpectator
+api-version: 1.15
+authors: [ Nagatuki ]
+description: 一定時間ごとにランダムでスペクテイターにされるプラグイン
+website: https://github.com/McNagatuki/RandomSpectator
+
+commands:
+  randspec:
+    usage: Unknown command. Type "/randspec help" for help.
+    description: Random Spectator plugin
+    permission: randspec
+
+permissions:
+  randspec:
+    default: op
