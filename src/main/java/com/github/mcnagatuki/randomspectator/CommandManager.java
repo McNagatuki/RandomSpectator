@@ -32,9 +32,9 @@ public class CommandManager implements CommandExecutor, TabCompleter {
                     "/randspec help : ヘルプ表示",
                     "/randspec start : プラグインを有効化",
                     "/randspec stop : プラグインを無効化",
-                    "/randspec time < long > : 切り替わる時間 (ticks)",
+                    "/randspec time < long > : 切り替わる時間 (seconds)",
                     "/randspec ratio < double > : スペクテイターになる確率",
-                    "/hotitem loadconfig : コンフィグの読み出し（リロード）",
+                    "/randspec loadconfig : コンフィグの読み出し（リロード）",
                     "-----------------------------------------------------",
             };
             Stream.of(HELP_MESSAGE).forEach(sender::sendMessage);
